@@ -24,6 +24,7 @@ public class SimpleAppTest {
 		expectedPerson = getExpectedPerson();
 	}
 
+
 	@Test
 	public void testInitPerson() {
 		UsualPerson person = (UsualPerson) context.getBean("person");
